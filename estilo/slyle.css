@@ -1,8 +1,11 @@
 /* estilização de index e m_zero2*/
 *{
     margin: 0px;
+    padding: opx;
 }
-
+html{
+    font-size: 62.5%;
+}
 body{
     background-color: purple;
     font-family: arial;
@@ -14,35 +17,35 @@ h1{
     color: white;
     margin: 0px;
     padding: 4rem;
-    display: flex;
+    display: block;
     justify-content: center;
 }
 h2{
     padding:2.5rem;
     text-align: center;
 }
+
 .menu{
-    display: flex;
     border: solid white;
     background-color: rgb(7, 73, 12);
-    align-items: center;
-    justify-content: left;
-    
+    align-items: center;  
+}
+.menu > ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: start;
 }
 .menu li{
     list-style:none;
     position:center;
     float:left;
-    padding: 5px 50px 5px;
-    display: flex;
-    justify-content: center;
-    
+    padding: 5px 50px 5px;    
 }
 .menu li a{
     color: white;
     text-decoration:none;
     padding: 5px 10px;
-    display: block;
     list-style: none;
     border-radius: 5px;
     
@@ -69,12 +72,13 @@ h2{
 .texto-corpo{
     padding: 2px;
     text-align: justify;
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
     margin-left: 10rem;
     margin-right: 10rem;
     margin-bottom: 1.5rem;
     background-color: rgb(7, 73, 12);
     border-radius: 10px;
+    height: 100px;
 }
 
 footer{
